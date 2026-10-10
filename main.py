@@ -11,10 +11,11 @@ import os
 from pathlib import Path
 import argparse
 
-# Ensure current repository root is on sys.path
-REPO_ROOT = Path(__file__).resolve().parent
-if str(REPO_ROOT) not in sys.path:
-    sys.path.insert(0, str(REPO_ROOT))
+# Ensure current repository root is on sys.path (safe for web/exec environments without __file__)
+REPO_ROOT = Path(__file__).resolve().parent if "__file__" in globals() else Path.cwd().resolve()
+for _path in [REPO_ROOT, Path.cwd().resolve()]:
+    if str(_path) not in sys.path:
+        sys.path.insert(0, str(_path))
 
 from quasar.main import run_pipeline
 

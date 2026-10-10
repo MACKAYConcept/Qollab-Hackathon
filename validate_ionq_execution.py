@@ -4,8 +4,11 @@ import sys
 import time
 from pathlib import Path
 
-# Add project root to path
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+# Add project root to path (safe for web/exec environments without __file__)
+REPO_ROOT = Path(__file__).resolve().parent if "__file__" in globals() else Path.cwd().resolve()
+for _path in [REPO_ROOT, Path.cwd().resolve()]:
+    if str(_path) not in sys.path:
+        sys.path.insert(0, str(_path))
 
 from qiskit_aer import AerSimulator
 from quasar.graph import create_winter_park_resort

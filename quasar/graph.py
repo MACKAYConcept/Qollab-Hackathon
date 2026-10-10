@@ -200,9 +200,17 @@ class SkiResortTopology:
 
 def create_winter_park_resort() -> SkiResortTopology:
     """Instantiates the real-world Winter Park Resort topology dataset."""
-    default_geojson = Path(__file__).resolve().parent.parent / "data" / "winter_park_resort.geojson"
-    if default_geojson.exists():
-        return SkiResortTopology.from_geojson(default_geojson)
+    candidate_paths = []
+    if "__file__" in globals():
+        candidate_paths.append(Path(__file__).resolve().parent.parent / "data" / "winter_park_resort.geojson")
+    candidate_paths.extend([
+        Path("data/winter_park_resort.geojson"),
+        Path.cwd() / "data" / "winter_park_resort.geojson",
+        Path.cwd() / "winter_park_resort.geojson",
+    ])
+    for candidate in candidate_paths:
+        if candidate.exists():
+            return SkiResortTopology.from_geojson(candidate)
 
     # Fallback programmatic construction if file moved
     resort = SkiResortTopology("Winter Park Resort, Colorado")
