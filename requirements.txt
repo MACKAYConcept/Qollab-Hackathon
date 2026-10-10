@@ -1,0 +1,15 @@
+# Core Quantum Framework
+qiskit>=1.0.0
+qiskit-aer>=0.14.0
+qiskit-algorithms>=0.3.0
+
+# Scientific & Graph Processing
+numpy>=1.24.0
+scipy>=1.10.0
+networkx>=3.0
+
+# Optimization & Benchmarking
+pulp>=2.8.0
+
+# Visualization & Accessibility
+matplotlib>=3.7.0

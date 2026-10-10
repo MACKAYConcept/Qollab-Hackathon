@@ -1,0 +1,837 @@
+{
+  "type": "FeatureCollection",
+  "name": "Winter Park Resort Ski Topology",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "WP_BASE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.7625, 39.8869]
+      },
+      "properties": {
+        "node_id": "WP_BASE",
+        "name": "Winter Park Base Village",
+        "territory": "Winter Park",
+        "elevation_ft": 9000.0,
+        "elevation_m": 2743.2,
+        "type": "base_area"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "MJ_BASE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.7711, 39.8680]
+      },
+      "properties": {
+        "node_id": "MJ_BASE",
+        "name": "Mary Jane Base",
+        "territory": "Mary Jane",
+        "elevation_ft": 9450.0,
+        "elevation_m": 2880.4,
+        "type": "base_area"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SUNSPOT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.7760, 39.8805]
+      },
+      "properties": {
+        "node_id": "SUNSPOT",
+        "name": "Sunspot Mountaintop Lodge",
+        "territory": "Winter Park",
+        "elevation_ft": 10700.0,
+        "elevation_m": 3261.4,
+        "type": "junction_summit"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "MJ_SUMMIT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.7830, 39.8580]
+      },
+      "properties": {
+        "node_id": "MJ_SUMMIT",
+        "name": "Lunch Rock / Mary Jane Summit",
+        "territory": "Mary Jane",
+        "elevation_ft": 11200.0,
+        "elevation_m": 3413.8,
+        "type": "summit"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TIMBERLINE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.7870, 39.8620]
+      },
+      "properties": {
+        "node_id": "TIMBERLINE",
+        "name": "Timberline Saddle / Pano Base",
+        "territory": "Parsenn Bowl",
+        "elevation_ft": 10420.0,
+        "elevation_m": 3176.0,
+        "type": "lift_terminal"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PARSENN_SUMMIT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.7920, 39.8510]
+      },
+      "properties": {
+        "node_id": "PARSENN_SUMMIT",
+        "name": "Parsenn Bowl Summit (Panoramic Top)",
+        "territory": "Parsenn Bowl",
+        "elevation_ft": 12060.0,
+        "elevation_m": 3675.9,
+        "type": "summit"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CIRQUE_HEADWALL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.7950, 39.8450]
+      },
+      "properties": {
+        "node_id": "CIRQUE_HEADWALL",
+        "name": "The Cirque Headwall",
+        "territory": "The Cirque",
+        "elevation_ft": 12060.0,
+        "elevation_m": 3675.9,
+        "type": "extreme_summit"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VASQUEZ_SUMMIT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.7920, 39.8730]
+      },
+      "properties": {
+        "node_id": "VASQUEZ_SUMMIT",
+        "name": "Vasquez Ridge Summit",
+        "territory": "Vasquez Ridge",
+        "elevation_ft": 10700.0,
+        "elevation_m": 3261.4,
+        "type": "summit"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VASQUEZ_BASE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.7860, 39.8850]
+      },
+      "properties": {
+        "node_id": "VASQUEZ_BASE",
+        "name": "Vasquez Ridge Base (Wild Spur Base)",
+        "territory": "Vasquez Ridge",
+        "elevation_ft": 9150.0,
+        "elevation_m": 2788.9,
+        "type": "lift_terminal"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HIGH_LONESOME_SUMMIT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.7785, 39.8715]
+      },
+      "properties": {
+        "node_id": "HIGH_LONESOME_SUMMIT",
+        "name": "High Lonesome Summit",
+        "territory": "Mary Jane",
+        "elevation_ft": 10800.0,
+        "elevation_m": 3291.8,
+        "type": "junction_summit"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EAGLE_WIND_SUMMIT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.7760, 39.8550]
+      },
+      "properties": {
+        "node_id": "EAGLE_WIND_SUMMIT",
+        "name": "Eagle Wind Summit",
+        "territory": "Eagle Wind",
+        "elevation_ft": 11000.0,
+        "elevation_m": 3352.8,
+        "type": "summit"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EAGLE_WIND_BASE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.7790, 39.8490]
+      },
+      "properties": {
+        "node_id": "EAGLE_WIND_BASE",
+        "name": "Eagle Wind Basin Base",
+        "territory": "Eagle Wind",
+        "elevation_ft": 10250.0,
+        "elevation_m": 3124.2,
+        "type": "lift_terminal"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SUNNYSIDE_BASIN",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.7820, 39.8650]
+      },
+      "properties": {
+        "node_id": "SUNNYSIDE_BASIN",
+        "name": "Sunnyside Basin / Timberline Creek",
+        "territory": "Parsenn Bowl",
+        "elevation_ft": 10200.0,
+        "elevation_m": 3108.96,
+        "type": "junction"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LIFT_GONDOLA",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7625, 39.8869],
+          [-105.7760, 39.8805]
+        ]
+      },
+      "properties": {
+        "edge_type": "lift",
+        "name": "The_Gondola_Express",
+        "u": "WP_BASE",
+        "v": "SUNSPOT",
+        "elevation_gain_ft": 1700.0,
+        "vertical_drop_ft": 0.0,
+        "duration_min": 7.0,
+        "difficulty": "lift",
+        "territory": "Winter Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LIFT_SUPER_GAUGE",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7711, 39.8680],
+          [-105.7830, 39.8580]
+        ]
+      },
+      "properties": {
+        "edge_type": "lift",
+        "name": "Super_Gauge_Express",
+        "u": "MJ_BASE",
+        "v": "MJ_SUMMIT",
+        "elevation_gain_ft": 1750.0,
+        "vertical_drop_ft": 0.0,
+        "duration_min": 7.5,
+        "difficulty": "lift",
+        "territory": "Mary Jane"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LIFT_PANORAMIC",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7870, 39.8620],
+          [-105.7920, 39.8510]
+        ]
+      },
+      "properties": {
+        "edge_type": "lift",
+        "name": "Panoramic_Express",
+        "u": "TIMBERLINE",
+        "v": "PARSENN_SUMMIT",
+        "elevation_gain_ft": 1640.0,
+        "vertical_drop_ft": 0.0,
+        "duration_min": 8.0,
+        "difficulty": "lift",
+        "territory": "Parsenn Bowl"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LIFT_SUNNYSIDE",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7820, 39.8650],
+          [-105.7760, 39.8805]
+        ]
+      },
+      "properties": {
+        "edge_type": "lift",
+        "name": "Sunnyside_Express",
+        "u": "SUNNYSIDE_BASIN",
+        "v": "SUNSPOT",
+        "elevation_gain_ft": 500.0,
+        "vertical_drop_ft": 0.0,
+        "duration_min": 5.0,
+        "difficulty": "lift",
+        "territory": "Parsenn Bowl"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LIFT_HIGH_LONESOME",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7711, 39.8680],
+          [-105.7785, 39.8715]
+        ]
+      },
+      "properties": {
+        "edge_type": "lift",
+        "name": "High_Lonesome_Express",
+        "u": "MJ_BASE",
+        "v": "HIGH_LONESOME_SUMMIT",
+        "elevation_gain_ft": 1350.0,
+        "vertical_drop_ft": 0.0,
+        "duration_min": 6.5,
+        "difficulty": "lift",
+        "territory": "Mary Jane"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LIFT_WILD_SPUR",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7860, 39.8850],
+          [-105.7920, 39.8730]
+        ]
+      },
+      "properties": {
+        "edge_type": "lift",
+        "name": "Wild_Spur_Express",
+        "u": "VASQUEZ_BASE",
+        "v": "VASQUEZ_SUMMIT",
+        "elevation_gain_ft": 1550.0,
+        "vertical_drop_ft": 0.0,
+        "duration_min": 7.0,
+        "difficulty": "lift",
+        "territory": "Vasquez Ridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LIFT_EAGLE_WIND",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7790, 39.8490],
+          [-105.7760, 39.8550]
+        ]
+      },
+      "properties": {
+        "edge_type": "lift",
+        "name": "Eagle_Wind_Triple",
+        "u": "EAGLE_WIND_BASE",
+        "v": "EAGLE_WIND_SUMMIT",
+        "elevation_gain_ft": 750.0,
+        "vertical_drop_ft": 0.0,
+        "duration_min": 6.0,
+        "difficulty": "lift",
+        "territory": "Eagle Wind"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_CRANMER",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7760, 39.8805],
+          [-105.7625, 39.8869]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "Cranmer",
+        "u": "SUNSPOT",
+        "v": "WP_BASE",
+        "vertical_drop_ft": 1700.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 7.0,
+        "difficulty": "blue",
+        "territory": "Winter Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_HUGHES",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7760, 39.8805],
+          [-105.7625, 39.8869]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "Hughes",
+        "u": "SUNSPOT",
+        "v": "WP_BASE",
+        "vertical_drop_ft": 1700.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 6.0,
+        "difficulty": "black",
+        "territory": "Winter Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_OUTHOUSE",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7830, 39.8580],
+          [-105.7711, 39.8680]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "Outhouse_Moguls",
+        "u": "MJ_SUMMIT",
+        "v": "MJ_BASE",
+        "vertical_drop_ft": 1750.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 8.5,
+        "difficulty": "black",
+        "territory": "Mary Jane"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_RAILBENDER",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7830, 39.8580],
+          [-105.7711, 39.8680]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "Railbender",
+        "u": "MJ_SUMMIT",
+        "v": "MJ_BASE",
+        "vertical_drop_ft": 1750.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 7.5,
+        "difficulty": "black",
+        "territory": "Mary Jane"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_SLEEPER",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7830, 39.8580],
+          [-105.7711, 39.8680]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "Sleeper",
+        "u": "MJ_SUMMIT",
+        "v": "MJ_BASE",
+        "vertical_drop_ft": 1750.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 7.0,
+        "difficulty": "blue",
+        "territory": "Mary Jane"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_PARRYS_PEAK",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7920, 39.8510],
+          [-105.7820, 39.8650]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "Parrys_Peak_Bowl",
+        "u": "PARSENN_SUMMIT",
+        "v": "SUNNYSIDE_BASIN",
+        "vertical_drop_ft": 1860.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 8.0,
+        "difficulty": "blue",
+        "territory": "Parsenn Bowl"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_EDELWEISS",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7920, 39.8510],
+          [-105.7830, 39.8580]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "Edelweiss",
+        "u": "PARSENN_SUMMIT",
+        "v": "MJ_SUMMIT",
+        "vertical_drop_ft": 860.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 5.0,
+        "difficulty": "blue",
+        "territory": "Parsenn Bowl"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_PANO_TRANSFER",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7830, 39.8580],
+          [-105.7870, 39.8620]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "Timberline_Cutoff",
+        "u": "MJ_SUMMIT",
+        "v": "TIMBERLINE",
+        "vertical_drop_ft": 780.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 4.0,
+        "difficulty": "blue",
+        "territory": "Mary Jane"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_CIRQUE_HEADWALL",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7920, 39.8510],
+          [-105.7950, 39.8450],
+          [-105.7790, 39.8490]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "The_Headwall_Chute",
+        "u": "PARSENN_SUMMIT",
+        "v": "EAGLE_WIND_BASE",
+        "vertical_drop_ft": 1810.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 9.0,
+        "difficulty": "black",
+        "territory": "The Cirque"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_MEDICINE_MAN",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7760, 39.8550],
+          [-105.7790, 39.8490]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "Medicine_Man_Glades",
+        "u": "EAGLE_WIND_SUMMIT",
+        "v": "EAGLE_WIND_BASE",
+        "vertical_drop_ft": 750.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 5.5,
+        "difficulty": "black",
+        "territory": "Eagle Wind"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_EAGLE_RETURN",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7760, 39.8550],
+          [-105.7711, 39.8680]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "Left_Spur_Return",
+        "u": "EAGLE_WIND_SUMMIT",
+        "v": "MJ_BASE",
+        "vertical_drop_ft": 1550.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 7.0,
+        "difficulty": "blue",
+        "territory": "Mary Jane"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_STAGECOACH",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7920, 39.8730],
+          [-105.7860, 39.8850]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "Stagecoach",
+        "u": "VASQUEZ_SUMMIT",
+        "v": "VASQUEZ_BASE",
+        "vertical_drop_ft": 1550.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 7.0,
+        "difficulty": "blue",
+        "territory": "Vasquez Ridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_GAMBLER",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7920, 39.8730],
+          [-105.7860, 39.8850]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "The_Gambler",
+        "u": "VASQUEZ_SUMMIT",
+        "v": "VASQUEZ_BASE",
+        "vertical_drop_ft": 1550.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 6.5,
+        "difficulty": "black",
+        "territory": "Vasquez Ridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_SOUTH_PARSENN_TRANSFER",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7920, 39.8510],
+          [-105.7920, 39.8730]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "South_Parsenn_Cruiser",
+        "u": "PARSENN_SUMMIT",
+        "v": "VASQUEZ_SUMMIT",
+        "vertical_drop_ft": 1360.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 6.0,
+        "difficulty": "blue",
+        "territory": "Parsenn Bowl"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_VASQUEZ_TO_WP",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7860, 39.8850],
+          [-105.7625, 39.8869]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "Big_Catwalk_Return",
+        "u": "VASQUEZ_BASE",
+        "v": "WP_BASE",
+        "vertical_drop_ft": 150.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 4.0,
+        "difficulty": "green",
+        "territory": "Winter Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_LONESOME_WHISTLE",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7785, 39.8715],
+          [-105.7760, 39.8805]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "Lonesome_Whistle_Corridor",
+        "u": "HIGH_LONESOME_SUMMIT",
+        "v": "SUNSPOT",
+        "vertical_drop_ft": 100.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 3.0,
+        "difficulty": "blue",
+        "territory": "Mary Jane"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_MJ_WP_CORRIDOR",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7711, 39.8680],
+          [-105.7625, 39.8869]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "Corridor_Transfer",
+        "u": "MJ_BASE",
+        "v": "WP_BASE",
+        "vertical_drop_ft": 450.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 5.0,
+        "difficulty": "green",
+        "territory": "Winter Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_VILLAGE_WAY_HIGH",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7920, 39.8510],
+          [-105.7760, 39.8805]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "Village_Way_High",
+        "u": "PARSENN_SUMMIT",
+        "v": "SUNSPOT",
+        "vertical_drop_ft": 1360.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 6.5,
+        "difficulty": "blue",
+        "territory": "Parsenn Bowl"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_ROUNDHOUSE",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7760, 39.8805],
+          [-105.7711, 39.8680]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "Roundhouse_Transfer",
+        "u": "SUNSPOT",
+        "v": "MJ_BASE",
+        "vertical_drop_ft": 1250.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 6.0,
+        "difficulty": "blue",
+        "territory": "Winter Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_MARY_JANE_TRAIL",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7830, 39.8580],
+          [-105.7711, 39.8680]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "Mary_Jane_Trail",
+        "u": "MJ_SUMMIT",
+        "v": "MJ_BASE",
+        "vertical_drop_ft": 1750.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 7.5,
+        "difficulty": "black",
+        "territory": "Mary Jane"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RUN_SUNDANCE",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-105.7920, 39.8730],
+          [-105.7860, 39.8850]
+        ]
+      },
+      "properties": {
+        "edge_type": "run",
+        "name": "Sundance",
+        "u": "VASQUEZ_SUMMIT",
+        "v": "VASQUEZ_BASE",
+        "vertical_drop_ft": 1550.0,
+        "elevation_gain_ft": 0.0,
+        "duration_min": 7.0,
+        "difficulty": "blue",
+        "territory": "Vasquez Ridge"
+      }
+    }
+  ]
+}
