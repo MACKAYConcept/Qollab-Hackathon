@@ -1,6 +1,6 @@
 # QUASAR: Quantitative Unique Alpine Ski Altitude Routing
 
-> **Official Attribution**: *This effort is supported by Qollab & IonQ*  
+> **Official Attribution**: *This effort is supported by Qollab & IonQ. Developed with AI pair-programming assistance from Google Antigravity.*  
 > **Track**: Student Track | **Theme**: Quantum Impact  
 > **License**: [MIT License](LICENSE)
 
@@ -234,3 +234,12 @@ python main.py --time 60.0 --p 2 --run-baselines
 - **Hackathon Node**: Colorado School of Mines
 - **Theme**: Quantum Impact
 - **Platform**: Published on [Qollab.xyz](https://qollab.xyz)
+
+---
+
+## 🙏 Acknowledgments
+
+- **Google Antigravity**: AI pair programming, algorithm architecture refinement, and rapid prototyping assistance.
+- **Qollab & IonQ**: Hackathon hosting, quantum simulation infrastructure, and native hardware documentation.
+- **Colorado School of Mines**: Hackathon node support and alpine modeling inspiration.
+

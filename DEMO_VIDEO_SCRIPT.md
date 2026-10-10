@@ -43,8 +43,9 @@
 ---
 
 ### Segment 5: Conclusion & Attribution (2:35 – 2:55)
-- **Visual**: Team card (Colorado School of Mines Hackathon Node, Student Track), GitHub repo link, Qollab project link, and official sponsorship logo.
+- **Visual**: Team card (Colorado School of Mines Hackathon Node, Student Track), GitHub repo link, Qollab project link, and official sponsorship/assistance logos (Qollab, IonQ, Google Antigravity).
 - **Audio / Script**:
   > *"QUASAR demonstrates how near-term quantum algorithms can solve real-world, high-dimensional recreation and logistics problems.*
   >
-  > *Representing the Colorado School of Mines Hackathon Node, all code is open-source under the MIT license. This effort is supported by Qollab and IonQ. Thank you!"*
+  > *Representing the Colorado School of Mines Hackathon Node, all code is open-source under the MIT license. This effort is supported by Qollab and IonQ, with development assisted by Google Antigravity. Thank you!"*
+
