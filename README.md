@@ -200,6 +200,9 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
+# Run primary QUASAR pipeline on Qollab platform
+python main.py
+
 # 1. Verify Classical Baselines across 1h, 2h, and 4h sessions
 python verify_baselines.py
 
@@ -212,8 +215,8 @@ python validate_ionq_execution.py
 # 4. Generate high-resolution WCAG 2.1 AA benchmark charts
 python quasar/generate_charts.py
 
-# 5. Run end-to-end QUASAR pipeline CLI
-python -m quasar.main --resort winter_park --backend qasm_simulator
+# 5. Run end-to-end QUASAR pipeline CLI with custom parameters
+python main.py --time 60.0 --p 2 --run-baselines
 ```
 
 ---
