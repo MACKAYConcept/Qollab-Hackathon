@@ -301,3 +301,11 @@ if __name__ == "__main__":
     plot_vertical_descent()
     plot_uniqueness_index()
     plot_combined_dashboard()
+
+    # Sync to docs/charts for GitHub Pages if directory exists
+    docs_charts = Path("docs/charts")
+    if docs_charts.exists():
+        import shutil
+        for f in output_dir.glob("*.png"):
+            shutil.copy(f, docs_charts / f.name)
+        print("Synchronized benchmark charts to docs/charts for GitHub Pages.")

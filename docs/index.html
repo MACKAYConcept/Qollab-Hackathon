@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUASAR: Interactive Route Map & Benchmark Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --bg-base: #0d0d10;
+            --card-base: #16161a;
+            --border-base: #2b2b33;
+            --text-cream: #f7f4ef;
+            --text-muted: #b5b3ad;
+            --accent-gold: #ffd700;
+            --accent-orange: #ff6a00;
+            --accent-cyan: #00e5ff;
+        }
+        body {
+            background-color: var(--bg-base);
+            color: var(--text-cream);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+    </style>
+</head>
+<body class="p-6 md:p-12 max-w-6xl mx-auto min-h-screen flex flex-col justify-between">
+
+    <div>
+        <!-- Header -->
+        <header class="border-b border-[#2b2b33] pb-8 mb-10">
+            <div class="flex flex-wrap items-center gap-3 mb-4">
+                <span class="px-3 py-1 rounded text-xs font-bold uppercase tracking-wider bg-[#ff6a00]/15 text-[#ff6a00] border border-[#ff6a00]/30">
+                    Qollab Hackathon • Student Track
+                </span>
+                <span class="px-3 py-1 rounded text-xs font-semibold bg-cyan-500/15 text-cyan-400 border border-cyan-500/30">
+                    Quantum Impact • IonQ Supported
+                </span>
+                <span class="px-3 py-1 rounded text-xs font-semibold bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">
+                    WCAG 2.1 AA Compliant
+                </span>
+            </div>
+            <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight text-[#f7f4ef]">
+                QUASAR <span class="text-[#ffd700]">Visual Portal</span>
+            </h1>
+            <p class="text-lg text-[#b5b3ad] mt-2 max-w-3xl">
+                Quantitative Unique Alpine Ski Altitude Routing: Hybrid Continuous-Time Quantum Walk (CTQW) and QAOA route optimization across Winter Park Resort, Colorado.
+            </p>
+        </header>
+
+        <!-- Main Interactive Navigation Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <!-- Card 1: Route Map -->
+            <div class="bg-[#16161a] border border-[#2b2b33] rounded-2xl p-7 shadow-xl hover:border-[#ff6a00]/60 transition-all flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-3xl">🗺️</span>
+                        <span class="text-xs font-semibold uppercase px-2.5 py-1 rounded bg-[#ff6a00]/20 text-[#ff6a00]">Geospatial SVG</span>
+                    </div>
+                    <h2 class="text-2xl font-bold text-[#f7f4ef] mb-2">Winter Park Route Map</h2>
+                    <p class="text-[#b5b3ad] text-sm leading-relaxed mb-6">
+                        Interactive geospatial map mapping 13 decision nodes, GPS coordinates, real elevation contours, and 22 lifts/trails across the Seven Territories of Winter Park Resort. Includes screen-reader accessible data tables.
+                    </p>
+                </div>
+                <a href="winter_park_route_map.html" 
+                   class="inline-flex items-center justify-center gap-2 w-full py-3 px-5 rounded-xl font-bold text-sm bg-[#ff6a00] hover:bg-[#e65c00] text-black transition-colors shadow-lg">
+                    Launch Interactive Route Map →
+                </a>
+            </div>
+
+            <!-- Card 2: Benchmark Dashboard -->
+            <div class="bg-[#16161a] border border-[#2b2b33] rounded-2xl p-7 shadow-xl hover:border-[#ffd700]/60 transition-all flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-3xl">📊</span>
+                        <span class="text-xs font-semibold uppercase px-2.5 py-1 rounded bg-[#ffd700]/20 text-[#ffd700]">Accessible Dashboard</span>
+                    </div>
+                    <h2 class="text-2xl font-bold text-[#f7f4ef] mb-2">WCAG 2.1 AA Benchmarks</h2>
+                    <p class="text-[#b5b3ad] text-sm leading-relaxed mb-6">
+                        Full comparative benchmark dashboard analyzing QUASAR (QAOA) against Simulated Annealing and Classical Greedy Trajectory across 1h, 2h, and 4h sessions with dual hatch pattern colorblind encoding.
+                    </p>
+                </div>
+                <a href="benchmark_dashboard.html" 
+                   class="inline-flex items-center justify-center gap-2 w-full py-3 px-5 rounded-xl font-bold text-sm bg-[#ffd700] hover:bg-[#e6c200] text-black transition-colors shadow-lg">
+                    Launch Interactive Dashboard →
+                </a>
+            </div>
+        </div>
+
+        <!-- Embedded Visual Charts Preview -->
+        <section class="border-t border-[#2b2b33] pt-8 mb-12">
+            <h3 class="text-xl font-bold text-[#f7f4ef] mb-6">Comparative Benchmarks Preview</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-[#16161a] border border-[#2b2b33] rounded-xl p-4">
+                    <h4 class="text-xs font-bold text-[#b5b3ad] uppercase mb-3">Cumulative Vertical Descent (ft)</h4>
+                    <img src="charts/vertical_descent_comparison.png" alt="Vertical Descent Comparison Chart" class="rounded-lg w-full h-auto border border-[#2b2b33]">
+                </div>
+                <div class="bg-[#16161a] border border-[#2b2b33] rounded-xl p-4">
+                    <h4 class="text-xs font-bold text-[#b5b3ad] uppercase mb-3">Run Uniqueness Index (%)</h4>
+                    <img src="charts/uniqueness_index_comparison.png" alt="Run Uniqueness Index Chart" class="rounded-lg w-full h-auto border border-[#2b2b33]">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-t border-[#2b2b33] pt-6 mt-6 flex flex-wrap items-center justify-between gap-4 text-xs text-[#b5b3ad]">
+        <div>
+            Colorado School of Mines • Supported by Qollab & IonQ • MIT License
+        </div>
+        <div class="flex gap-4">
+            <a href="https://qollab.xyz" target="_blank" rel="noopener noreferrer" class="hover:text-[#ffd700] underline">Qollab Platform</a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="hover:text-[#ffd700] underline">GitHub Repository</a>
+        </div>
+    </footer>
+
+</body>
+</html>
+
