@@ -5,9 +5,9 @@
 ---
 
 ### Segment 1: The Hook & Problem (0:00 – 0:35)
-- **Visual**: Drone/POV ski footage or topological 3D map of a large ski resort (e.g. Vail / Jackson Hole).
+- **Visual**: Drone/POV ski footage or topological 3D map of Winter Park Resort, Colorado across its Seven Territories.
 - **Audio / Script**:
-  > *"Every skier and snowboarder has faced this dilemma: you have six hours on a massive mountain with dozens of lifts and over a hundred runs. You want to rack up maximum vertical descent, but you don't want to get stuck skiing the same catwalk twice or waiting in bottleneck lift lines.*
+  > *"Every skier and snowboarder has faced this dilemma: you have six hours on a massive mountain like Winter Park with dozens of lifts and over a hundred runs. You want to rack up maximum vertical descent, but you don't want to get stuck skiing the same catwalk twice or waiting in bottleneck lift lines.*
   >
   > *Topologically, this is an Orienteering Problem with edge penalties on a directed multigraph — an NP-hard combinatorial challenge where classical algorithms get bogged down in exponential search spaces. We built **QUASAR**: Quantitative Unique Alpine Ski Altitude Routing."*
 
@@ -43,8 +43,8 @@
 ---
 
 ### Segment 5: Conclusion & Attribution (2:35 – 2:55)
-- **Visual**: Team card, GitHub repo link, Qollab project link, and official sponsorship logo.
+- **Visual**: Team card (Colorado School of Mines Hackathon Node, Student Track), GitHub repo link, Qollab project link, and official sponsorship logo.
 - **Audio / Script**:
   > *"QUASAR demonstrates how near-term quantum algorithms can solve real-world, high-dimensional recreation and logistics problems.*
   >
-  > *All code is open-source under the MIT license. This effort is supported by Qollab and IonQ. Thank you!"*
+  > *Representing the Colorado School of Mines Hackathon Node, all code is open-source under the MIT license. This effort is supported by Qollab and IonQ. Thank you!"*

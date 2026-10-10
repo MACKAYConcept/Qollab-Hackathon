@@ -228,6 +228,6 @@ python -m quasar.main --resort winter_park --backend qasm_simulator
 ## 👥 Team & Submission Info
 
 - **Team Track**: Student Track
-- **Hackathon Node**: [University Hackathon Node Name]
+- **Hackathon Node**: Colorado School of Mines
 - **Theme**: Quantum Impact
 - **Platform**: Published on [Qollab.xyz](https://qollab.xyz)
